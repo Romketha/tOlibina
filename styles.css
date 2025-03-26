@@ -104,3 +104,23 @@ th {
     z-index: 1;
     color: #333333; /* Darker color for marked numbers */
 }
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    table {
+        width: 100%; /* Make the table take up the full width of the container */
+    }
+
+    th, td {
+        padding: 8px; /* Reduce padding for table cells */
+        font-size: 0.8rem; /* Reduce font size for table cells */
+    }
+
+    .number-display {
+        font-size: 3rem; /* Reduce number display font size */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduce title font size */
+    }
+}
