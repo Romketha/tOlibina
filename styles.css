@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matura+MT+Script+Capitals&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    background-color: #242424;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #1565c0;
+    font-family: 'Matura MT Script Capitals', cursive;
+    font-size: 3rem; /* Increased font size */
+}
+
+.number-display {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: #ffffff;
+    border: 2px solid #1565c0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #333333;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #1565c0;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 11px; /* Increased padding by 1px */
+    text-align: center;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+th {
+    background-color: #1565c0;
+    color: #ffffff;
+}
+
+.marked {
+    position: relative;
+}
+
+.marked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 65%;
+    height: 65%;
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.marked span {
+    position: relative;
+    z-index: 1;
+    color: #333333; /* Darker color for marked numbers */
+}
