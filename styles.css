@@ -10,6 +10,7 @@ body {
     margin: 0;
     background-color: #181818;
     color: #ffffff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .container {
@@ -18,6 +19,8 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 100%; /* Ensure container does not exceed viewport width */
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
 h1 {
