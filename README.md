@@ -14,9 +14,9 @@ tOlibina je društvena igra slična tomboli u kojoj igrači imaju listiće s bro
 
 ✨ Značajke Generatora
 
-✅ Jednostavno korištenje – jedan klik za novi broj.
-✅ Vizualna povratna informacija – broj se jasno prikazuje.
-✅ Responsive dizajn – radi na svim uređajima.
+* ✅ Jednostavno korištenje – jedan klik za novi broj.
+* ✅ Vizualna povratna informacija – broj se jasno prikazuje.
+* ✅ Responsive dizajn – radi na svim uređajima.
 
 ---
 
