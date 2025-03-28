@@ -1,5 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Matura+MT+Script+Capitals&display=swap');
+/* Define local font-face rules */
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-VariableFont_wght.ttf') format('truetype'),
+         url('fonts/RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matura MT Script Capitals';
+    src: url('fonts/MATURASC.TTF') format('truetype');
+    font-style: normal;
+}
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
